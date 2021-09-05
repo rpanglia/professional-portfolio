@@ -10,6 +10,7 @@ body {
 
 /*TO DO:::::get soft blue color to extend all the way to left only!!!!!!*/
 .header {
+    width: 100%;
     padding: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #404040;
@@ -48,28 +49,40 @@ a {
     text-decoration: underline;
 }
 
+/*start of hero styles*/
 .hero {
-    height: 200px;
+    height: 320px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/istockphoto-1127136711-612x612.jpg");
-    background-size: center;
-    background-position: center;
-    position: relative;
+    margin-bottom: 100px;
+    background-image: url("../images/character-icon.jpg"), url("../images/istockphoto-1127136711-612x612.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: relative, center;
+    background-position: 10px 20px, center;
+}
+/*TO DO::::::move the hero-box down a lot*/
+.hero-box {
+    margin-top: 125px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #b3daff;
+    background-position: bottom right;
+    color: #404040;
+    font-size: 40px;
+}
+
+.float-right{
+    float: right;
+    margin-left: 25px;
 }
 
 
-/*TO DO::::::move the hero-box down a lot*/
-.hero-box {
-    padding-top: 0;
-    margin-right: 50px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    background-color: #b3daff;
-    background-position: bottom;
-    color: #404040;
-    font-size: 40px;
+/*BELOW content section styling?*/
+
+.content {
+    width: 100%;
+    display: inline-block;
 }
 
 .section-title {
@@ -79,6 +92,13 @@ a {
 .info {
     color: #19334d;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rectangle {
+    height: 200px;
+    width: 10px;
+    background-color: #555;
+    position: relative;
 }
 
 
