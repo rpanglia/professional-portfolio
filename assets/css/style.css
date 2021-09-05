@@ -53,11 +53,12 @@ a {
 .hero {
     height: 320px;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-image: url("../images/character-icon.jpg"), url("../images/istockphoto-1127136711-612x612.jpg");
     background-repeat: no-repeat, repeat;
     background-size: relative, center;
-    background-position: 10px 20px, center;
+    background-position: 20px 10px, center;
+
 }
 /*TO DO::::::move the hero-box down a lot*/
 .hero-box {
@@ -83,6 +84,7 @@ a {
 .content {
     width: 100%;
     display: inline-block;
+    padding-left: 10px;
 }
 
 .section-title {
@@ -101,8 +103,22 @@ a {
     position: relative;
 }
 
+.info-resume {
+    color: #19334d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
 
 /*add footer style*/
+.footer {
+    padding-left: 10px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
