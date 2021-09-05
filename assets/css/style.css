@@ -84,8 +84,8 @@ a {
 .content {
     width: 100%;
     display: inline-block;
-    padding-left: 10px;
-    text-align: center;
+    padding: 150px;
+    text-align:center;
 }
 
 .info {
@@ -97,11 +97,16 @@ a {
 
 .info h2 {
     font-size: 40px;
+    
 }
 
 .info img {
     height: 200px;
     width: 300px;
+}
+
+.info div {
+    text-align: left;
 }
 
 .rectangle {
@@ -119,7 +124,7 @@ a {
 }
 
 .work-sample {
-    src: url("./assets/images/run-buddy-landing-page.jpg");
+    padding: 0 50px;
 }
 
 
