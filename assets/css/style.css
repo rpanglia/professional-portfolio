@@ -196,10 +196,16 @@ a {
 .connect {
     color: #404040;
     text-decoration-line: underline;
+    margin-right: 150px;
+    margin-top: 0;
 }
 
 .info-resume {
     padding: 30px;
+}
+
+.git {
+    color: #404040
 }
 
 .footer {
