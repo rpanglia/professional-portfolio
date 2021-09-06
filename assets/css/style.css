@@ -133,6 +133,7 @@ a {
     width: 300px;
     background-size: 300px;
     position: relative;
+    border: 5px solid #b3daff;
 }
 
 .buddy:after {
@@ -202,6 +203,7 @@ a {
 
 .info-resume {
     padding: 30px;
+    text-align: right;
 }
 
 .git {
