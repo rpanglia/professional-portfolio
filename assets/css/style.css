@@ -60,7 +60,7 @@ a {
     background-position: 20px 10px, center;
 
 }
-/*TO DO::::::move the hero-box down a lot*/
+
 .hero-box {
     margin-top: 125px;
     margin-right: 100px;
@@ -84,7 +84,7 @@ a {
 .content {
     width: 100%;
     display: inline-block;
-    padding: 150px;
+    padding: 80px;
     text-align:center;
 }
 
@@ -96,13 +96,13 @@ a {
 }
 
 .info h2 {
-    font-size: 40px;
-    
+    font-size: 50px;
 }
 
 .info img {
-    height: 200px;
+    height: 300px;
     width: 300px;
+    image-rendering: auto;
 }
 
 .info div {
@@ -127,15 +127,81 @@ a {
     padding: 0 50px;
 }
 
+.buddy {
+    background-image: url("https://rpanglia.github.io/run-buddy/");
+    height: 300px;
+    width: 300px;
+    background-size: 300px;
+    position: relative;
+}
+
+.buddy:after {
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:blue;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.buddy:hover:after {
+    opacity:0;
+}
+
+.horiseon {
+    background-image: url("https://rpanglia.github.io/horiseon/");
+    height: 300px;
+    width: 300px;
+    background-size: 300px;
+    position: relative;
+}
+
+.horiseon:after {
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:blue;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.horiseon:hover:after {
+    opacity:0;
+}
+
+.java {
+    background-image: url("https://rpanglia.github.io/horiseon/");
+    height: 300px;
+    width: 300px;
+    background-size: 300px;
+    position: relative;
+}
+
+.java:after {
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color:blue;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.java:hover:after {
+    opacity:0;
+}
 
 .connect {
     color: #404040;
-
-    /*connect class needs to be underlined and github + linkedin links should open in new tab*/
+    text-decoration-line: underline;
 }
 
+.info-resume {
+    padding: 30px;
+}
 
-/*add footer style*/
 .footer {
     padding-left: 10px;
     clear: both;
