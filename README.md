@@ -26,7 +26,7 @@ Please see below the requirements and expectations for this assignment:
     WHEN I resize the page or view the site on various screens and devices
     THEN I am presented with a responsive layout that adapts to my viewport
 
-**Viewing my Profeessional Portfolio**
+**Viewing my Professional Portfolio**
 Option A: Direct Link to Portfolio --> https://rpanglia.github.io/professional-portfolio/ 
 
 Option B: View Portfolio through GitHub --> https://github.com/rpanglia/professional-portfolio
